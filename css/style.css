@@ -40,16 +40,17 @@ background-color: rgb(241, 240, 234);
   height: 150px;
 }
 .cart {
+  background-color: aliceblue;
   width: 350px;
   border: 1px solid green;
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
   border-radius: 5px;
-  margin-right: 30px;
+  margin-right: 10px;
   position: fixed;
 }
 .cart-main {
-  padding-right: 30px;
+  padding-right: 10px;
 }
 @media only screen and (max-width: 768px) {
   #all-products {
@@ -58,7 +59,7 @@ background-color: rgb(241, 240, 234);
   }
   .cart {
     width: 300px;
-    /* border: 1px solid green; */
+    border: 1px solid green;
     padding: 10px;
     box-shadow: 10px 10px 20px gray;
     border-radius: 5px;
